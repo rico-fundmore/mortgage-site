@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>404 Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- font style -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+<style>
+    body{
+        overflow: hidden;
+    }
+.e_overlay{
+    background-image: url(img/header_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+} 
+
+.e_text {
+    padding-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.e_character{
+    font-size: 96px;
+}
+
+.img_circle {
+    margin: 20px 0;
+    background-color: white;
+    padding: 40px;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px){
+    .img_circle {
+    margin: 0px;
+}
+}
+
+</style>
+        <div>
+
+            <span class="shape_divide_b"></span>
+            <span class="shape_divide_b"></span>
+            <div class="e_overlay"></div>
+            <div class="container text-white text-center text-md-left e_text">
+                <div class="row">
+                    <div class="col-md-6">
+                       <img src="img/icon.png" alt="" class="img_circle">
+                    </div>
+                    <div class="col-md-6">
+                            <h2>Page Not Found<br><span class="e_character">404</span></h2>
+                        <h5>Looks like the page you were looking for is no longer here.</h5>
+                        <button type="button" class="btn sub_btn fx"><a href="/test/">GO BACK</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
